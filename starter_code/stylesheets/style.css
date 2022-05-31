@@ -5,3 +5,83 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+p,
+span {
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #5b5e6d;
+  line-height: 150%;
+}
+
+li {
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #5b5e6d;
+  line-height: 135%;
+}
+
+hr {
+  border-top: 1px solid #e2e0e0;
+}
+
+@media (max-width: 768px) {
+  nav img {
+    height: 4em;
+  }
+
+  .buttonclass {
+    display: flex;
+    margin: 30%;
+    flex-direction: row;
+    background: #0066a2;
+    color: white;
+    border-style: outset;
+    border-color: #0066a2;
+    height: 30px;
+    width: 160px;
+    font: bold 20px arial, sans-serif;
+    text-shadow: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header img {
+    height: 20em;
+  }
+  header p {
+    font-size: 0.8em;
+  }
+}
+main img {
+  height: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+}
+
+.registro {
+  background-color: #f4f3f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: ;
+}
+
+.div2 {
+}
+
+.div3 {
+}
+.div3 img {
+  height: 5em;
+}
+
+@media (min-width: 767px) and (max-width: 961px) {
+}
